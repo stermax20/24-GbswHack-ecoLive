@@ -1,0 +1,387 @@
+.body {
+  margin: 0 auto;
+}
+
+a {
+  all:unset;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: #8e8d8d;
+}
+
+.inner {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  background-color: #fff;
+}
+
+.head_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head_container .head_logo {
+  width: 400px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #8E8d8d;
+  display: flex;
+  justify-content: space-between;
+}
+
+.head_logo > div:hover {
+  color: #077D20;
+  cursor: pointer;
+}
+
+section {
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+}
+
+.main {
+  height: 840px;
+  background-image: url("../Main/image_7_waifu2x_photo_scale.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 70px;
+  background-position: 0 30%;
+  z-index: 1;
+}
+.eco_food {
+  width: 100%;
+  height: 800px;
+}
+
+.food > img {
+  cursor: pointer;
+}
+
+.box {
+  width: 65%;
+  margin-top: 80px;
+  margin-left: 300px;
+}
+
+.food {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.food > img {
+  width: 150px;
+}
+
+.popup {
+  position: absolute; 
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 100px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.popup2{
+  position: absolute; 
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 500px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.popup3 {
+  position: absolute; 
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 850px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.popup4 {
+  position: absolute; 
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 1200px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.local_food {
+  width: 100%;
+  height: 840px;
+}
+
+.point {
+  font-size: 5rem;
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+}
+.map {
+  width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#point5 {
+  margin-left: 930px;
+  margin-top: 430px;
+  color: #008A38;
+}
+
+.popup5 {
+  position: absolute; 
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 960px;
+  margin-top: 500px;
+  border-radius: 15px;
+  background-color: white;
+  z-index: 200;
+}
+
+#point6 {
+  margin-left: 940px;
+  margin-top: 450px;
+  color: rgb(245, 58, 58);
+}
+
+.popup6 {
+  position: absolute; 
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 820px;
+  margin-top: 530px;
+  border-radius: 15px;
+  background-color: white;
+  z-index: 200;
+}
+
+#point7 {
+  margin-left: 880px;
+  margin-top: 585px;
+  color: rgb(75, 75, 222);
+}
+
+.popup7 {
+  position: absolute; 
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 760px;
+  margin-top: 660px;
+  border-radius: 15px;
+  background-color: white;
+  z-index: 200;
+}
+
+#point8 {
+  margin-left: 910px;
+  margin-top: 565px;
+  color: rgb(222, 166, 75);
+}
+
+.popup8 {
+  position: absolute; 
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 935px;
+  margin-top: 650px;
+  border-radius: 15px;
+  background-color: white;
+  z-index: 200;
+}
+
+#point9 {
+  margin-left: 1000px;
+  margin-top: 415px;
+  color: rgb(207, 75, 222);
+}
+
+.popup9 {
+  position: absolute; 
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 1025px;
+  margin-top: 500px;
+  border-radius: 15px;
+  background-color: white;
+  z-index: 200;
+}
+
+#point10 {
+  margin-left: 990px;
+  margin-top: 460px;
+  color: aqua;
+}
+
+.popup10 {
+  position: absolute; 
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 1015px;
+  margin-top: 540px;
+  border-radius: 15px;
+  background-color: white;
+  z-index: 200;
+}
+
+#point11 {
+  margin-left: 895px;
+  margin-top: 550px;
+  color: rgb(75, 45, 68);
+}
+
+.popup11 {
+  position: absolute; 
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 770px;
+  margin-top: 580px;
+  border-radius: 15px;
+  background-color: white;
+  z-index: 200;
+}
+
+#point12 {
+  margin-left: 910px;
+  margin-top: 530px;
+  color: rgb(205, 255, 113);
+}
+
+.popup12 {
+  position: absolute; 
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 930px;
+  margin-top: 580px;
+  border-radius: 15px;
+  background-color: white;
+  z-index: 200;
+}
+
+#point13 {
+  margin-left: 1010px;
+  margin-top: 530px;
+  color: rgb(122, 95, 33);
+}
+
+.popup13 {
+  position: absolute; 
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 1030px;
+  margin-top: 580px;
+  border-radius: 15px;
+  background-color: white;
+  z-index: 200;
+}
+
+#point14 {
+  margin-left: 960px;
+  margin-top: 485px;
+  color: rgb(245, 58, 58);
+}
+
+.popup14 {
+  position: absolute; 
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 980px;
+  margin-top: 530px;
+  border-radius: 15px;
+  background-color: white;
+  z-index: 200;
+}
+
+#point15 {
+  margin-left: 890px;
+  margin-top: 645px;
+  color: rgb(245, 58, 58);
+}
+
+.popup15 {
+  position: absolute; 
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 915px;
+  margin-top: 710px;
+  border-radius: 15px;
+  background-color: white;
+  z-index: 200;
+}
+
+.eco_effort {
+  width: 100%;
+  height: 800px;
+}
+
+.eco_img {
+  width: 100%;
+  height: 250px;
+  margin-top: 60px;
+}
+
+.eco_effort > h1 {
+  font-size: 5rem;
+  z-index: 100;
+  margin-top: -200px;
+  margin-left: 800px;
+  color: #7b7b7b;
+}
+
+.card_box {
+  margin-left: 400px;
+}
+
+.card1 {
+  margin-top: 50px;
+  margin-right: 10px;
+  position: relative; top: 0px; transition: top 0.2s;
+}
+.card2 {
+  position: relative; top: 0px; transition: top 0.2s;
+}
+.card3 {
+  position: relative; top: 0px; transition: top 0.2s;
+}
+
+.card1:hover {
+  top: -7px;
+}
+.card2:hover {
+  top: -7px;
+}
+.card3:hover {
+  top: -7px;
+}
+@media screen and (min-width: 1100px) {
+  .inner {
+    max-width: 1400px;
+  } 
+}

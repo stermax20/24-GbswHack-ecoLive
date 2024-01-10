@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.19c026d5.css",
+    "main.js": "/static/js/main.85b91dea.js",
+    "static/js/787.97e64c93.chunk.js": "/static/js/787.97e64c93.chunk.js",
+    "static/media/image_7_waifu2x_photo_scale.png": "/static/media/image_7_waifu2x_photo_scale.0d0bfb1f852d8acf8fa0.png",
+    "static/media/Component 1 (1).png": "/static/media/Component 1 (1).132343e714303d0c38da.png",
+    "static/media/Component 4.png": "/static/media/Component 4.627e66864aba73bab484.png",
+    "static/media/Rectangle 4.png": "/static/media/Rectangle 4.77af4445296753ab8533.png",
+    "static/media/Component 2 (4).png": "/static/media/Component 2 (4).f41d3e7377d321bf6639.png",
+    "static/media/Component 3.png": "/static/media/Component 3.2b9bfde8e3df513e7620.png",
+    "static/media/image 5.png": "/static/media/image 5.ace3faf1b895e61f765d.png",
+    "static/media/image 3 (1).png": "/static/media/image 3 (1).c5f6d3f5a0aeb507558d.png",
+    "static/media/KakaoTalk_20240109_201704174 1.png": "/static/media/KakaoTalk_20240109_201704174 1.4f842443d1ac83fb69f7.png",
+    "static/media/image 4.png": "/static/media/image 4.4c9248068ab90565d534.png",
+    "static/media/image 6.png": "/static/media/image 6.fb0b984ff9e4fccbe1bc.png",
+    "index.html": "/index.html",
+    "main.19c026d5.css.map": "/static/css/main.19c026d5.css.map",
+    "main.85b91dea.js.map": "/static/js/main.85b91dea.js.map",
+    "787.97e64c93.chunk.js.map": "/static/js/787.97e64c93.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19c026d5.css",
+    "static/js/main.85b91dea.js"
+  ]
+}

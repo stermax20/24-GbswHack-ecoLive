@@ -1,0 +1,13 @@
+{
+    "Version": "2012-10-17",
+    "Id": "Policy1704875774571",
+    "Statement": [
+        {
+            "Sid": "Stmt1704875766096",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::gbsw-hackathon/*"
+        }
+    ]
+}
